@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simon Says Game</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+  body{
+     margin: 0;
+     padding: 0;
+    }
+   
+   /* إعدادات الهيدر */
+   header {
+     background-color: rgb(18, 17, 17); /* لون الخلفية السوداء */
+     color: white; /* لون النص */
+     text-align: center; /* وضع النص في الوسط */
+     padding: 250px; /* هوامش داخلية للهيدر */
+   }
+   
+   /* تنسيق النص داخل الهيدر */
+   .header-content {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100%; /* يمتد لشغل الارتفاع كاملاً */
+   }
+   
+   .headerss{
+     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* استبدل 'YourFont' بالخط الذي تريده */
+     text-align: ;
+     font-size: 80px; /* حجم الخط الأساسي للعنوان */
+   }
+   
+   .editing{
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* استبدل 'YourFont' بالخط الذي تريده */
+     text-align: center;
+     font-size: 25px; /* حجم الخط للنص الثانوي */
+   }
+   
+   /* تخصيص زر Play Game */
+   .play-button {
+     background-color: #5e61636f; /* لون الخلفية */
+     color: #fff; /* لون النص */
+     font-size: 24px; /* حجم الخط */
+     padding: 10px 20px; /* هوامش داخلية */
+     border: none; /* إزالة الحدود */
+     border-radius: 5px; /* تدوير الزوايا */
+     text-decoration: none; /* إزالة تأثيرات الارتباط الافتراضية */
+     cursor: pointer; /* تغيير الفأرة عند التحويل إلى زر */
+   }
+   
+   /* تغيير اللون عند تمرير الماوس */
+   .play-button:hover {
+     background-color: #555454;
+   }
+   
+   
+   
+   .HOW-TO-Play {
+     background-color: rgba(221, 221, 221, 0.626); /* لون الخلفية السوداء */
+     color: rgb(0, 0, 0); /* لون النص */
+     padding: 300px; /* هوامش داخلية للهيدر */
+   
+   }
+   
+   
+   
+   .EXPLAIN{
+     float: left;
+     width: 50%; /* تعديل العرض حسب الحاجة */
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: left;
+   font-size: large;
+   }
+   .team {
+       text-align: center;
+       border: 1px solid #ddd;
+       padding: 20px;
+       background-color: #f9f9f9;
+       margin: 10px;
+       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   }
+   
+   .team img {
+       width: 100%;
+       max-width: 200px; /* تعيين حجم أقصى للصورة */
+       border-radius: 50%; /* تجعل الصورة دائرية */
+   }
+   
+   .team h3 {
+       font-size: 24px;
+       margin-top: 10px;
+   }
+   
+   .team .mission {
+       color: #888;
+   }
+   
+   .team11{
+     font-size: 36px; /* حجم الخط */
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     text-align: center; /* خط مزخرف */
+   }
+   
+   /* تعديل خلفية الفوتر إلى اللون الأسود */
+   .footer {
+     background-color: black;
+     color: rgba(167, 167, 167, 0.689); /* تغيير لون النص ليكون مقروءًا على الخلفية السوداء */
+     padding: 30px; /* إضافة هوامش داخلية للفوتر */
+     text-align: center;
+     font-size: 20px; /* حجم الخط */
+   }
+   </style>
+   
+</head>
+<body>
+
+<!-- Header with full-height image -->
+<header class="home1" id="home">
+  <div class="text-white" style="padding:48px">
+
+    <span class="headerss">Simon Says Game</span><br>
+    <span class="editing">created by software vampires team.</span><br><br><br>
+    <a class="play-button" href="https://youssefaboesh.github.io/Simon-Says-Game/">Play Game</a>
+  </div> 
+
+</header>
+
+<!-- Promo Section - "We know design" -->
+<div class="HOW-TO-Play" style="padding:128px 16px">
+    <div class="EXPLAIN">
+      <h3>how to play.</h3>
+      <p>In the beginning, when you press the Start Game button,<br>
+         the game will appear some colors, and all you<br>
+         have to do is choose the colors that appeared before..</p>
+      
+    </div>
+    <div class="GAME-PHOTO">
+      <img class="SIMON PHOTO" src="https://i.ibb.co/bg5fpPf/34-15-5-6-14-31-52m.jpg" alt="game" width="600" height="394">
+    </div>
+  </div>
+</div>
+
+<!-- Team Section -->
+<div class="software-vampires" style="padding:128px 16px" id="team">
+  <h3 class="team11">THE TEAM</h3>
+    
+    <div class="team">
+        <img src="https://i.ibb.co/7z2rCq9/Whats-App-Image-2023-10-22-at-22-39-57-99948b70.jpg" alt="YOUSSEF FAWZY" style="width:100%">
+          <h3>YOUSSEF FAWZY</h3>
+          <p class="mission">LEADER</p>
+    </div>
+
+    <div class="team">
+        <img src="https://i.ibb.co/qdyT0nc/Whats-App-Image-2023-08-16-at-17-14-38.jpg" alt="YOUSSEF METWALLY" style="width:100%">
+          <h3>YOUSSEF METWALLY</h3>
+          <p class="mission">Home page designer</p>
+    </div>
+
+        <div class="team">
+        <img src="https://i.ibb.co/801CQVj/Whats-App-Image-2023-10-24-at-16-05-52-55923c12.jpg" alt="YOUSSEF REDA" style="width:100%">
+          <h3>YOUSSEF REDA</h3>
+          <p class="mission">Home page designer</p>
+    </div>
+
+        <div class="team">
+        <img src="https://i.ibb.co/ypxx6PL/Whats-App-Image-2023-10-22-at-22-39-57-5d59ab12.jpg" alt="YOUSSEF ABOESH" style="width:100%">
+          <h3>YOUSSEF ABOESH</h3>
+          <p class="mission">GAME DESIGNER</p>
+    </div>
+    
+    <div class="team">
+        <img src="https://i.ibb.co/09dMB5W/Whats-App-Image-2023-10-22-at-22-42-57-ff9f159f.jpg" alt="YOUSSEF HEFNEY" style="width:100%">
+          <h3>YOUSSEF HEFNEY</h3>
+          <p class="mission">GAME DESIGNER</p>
+    </div>
+
+    <div class="team">
+        <img src="https://i.ibb.co/gMfzcCg/Whats-App-Image-2023-10-24-at-16-06-07-e74f022c.jpg" alt="YOUSSEF HAGAG" style="width:100%">
+          <h3>YOUSSEF HAGAG</h3>
+          <p class="mission">GAME DESIGNER</p>
+    </div>
+  </div>
+</div>
+ 
+<!-- Footer -->
+<footer class="footer">
+
+  <p>Powered by software vampires</p>
+</footer>
+
+
+</body>
+</html>
